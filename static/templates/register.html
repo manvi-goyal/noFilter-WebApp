@@ -1,0 +1,26 @@
+{% extends "post.html" %}
+
+{% block content %}
+    <h2 class = "text-center">Register</h2>
+    {{ form.non_field_errors }}
+    <form  action="/accounts/register/" method = "post">{%csrf_token%}
+		<p class = "registerp">Username</p>
+		{{ form.username.errors }}
+		<div class = "text-center">{{form.username}}</div>
+		<p class = "registerp">Email</p>
+		{{ form.email.errors }}
+		<div class = "text-center">{{form.email}}</div>		
+		<p class = "registerp">Password</p>
+		{{ form.password1.errors }}
+		<div class = "text-center">{{form.password1}}</div>
+		<p class = "registerp">Confirm Password</p>
+		{{ form.password2.errors }}
+		<div class = "text-center">{{form.password2}}</div>
+
+		<div class = "text-center">
+        	<input class = "btn btn-primary registerButton" type="submit" value="Register" />
+        </div>
+    </form>    
+{% endblock %}       
+
+   

@@ -1,0 +1,8 @@
++ I love your performance concerns
++ "Server clusters in populated hipster areas (data sharding) --ha, +1 for humor and truth
+++ "Smart caching the posts based on time stamps" --nice!
+? What do you mean by local database?
+- No budgeting or cost information. Remember, you only have $3000
+? Wait, you are using both PostgreSQL and MySQL?
+
+9 / 10

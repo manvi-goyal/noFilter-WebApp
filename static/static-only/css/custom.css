@@ -1,0 +1,96 @@
+/* Custom CSS in addition to Bootstrap */
+#id_username{
+	width: 90%;
+}
+#id_email{
+	width: 90%;
+}
+#id_password1{
+	width: 90%;
+}
+#id_password2{
+	width: 90%;
+}
+
+.registerp{
+	margin: 0px;
+	margin-left: 5%;
+
+}
+.registerButton{
+	margin: 5%;
+	background-image: url(../img/burlap.jpg);
+}
+
+.customp {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: rgb(255,255,255);
+    background-color: rgba(0,0,0,.5);
+}
+
+.box{
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+	background-image: url(../img/burlap.jpg);
+}
+
+.internet-points{
+	font-size: 18px;
+	font-variant: normal;
+	text-transform: none;
+	color: black;
+	padding:5px;
+}
+
+hr.internet-points{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.input{
+	font-size: 18px;
+	font-variant: normal;
+	text-transform: none;
+}
+
+.post{
+	padding:5px;
+}
+label[for="id_text"]{
+	display: none;
+}
+form{
+	padding: 0px;
+	margin: 0px;
+}
+
+.transparent{
+	background-color: transparent;
+	border-color: transparent;
+}
+/*label[for="id_image"]{
+	background-color: rgb(20,100,200);
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	color: white
+}
+
+label[for="id_val"]{
+	height: 0px;
+	width: 0px;
+	display: none;
+}
+input[type="file"]{
+	height: 0px;
+	width: 0px;
+	display: none;
+}
+input[type="text"]{
+	width: 100%;
+}
