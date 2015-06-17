@@ -1,3 +1,9 @@
+#noFilter 
+
+noFilter is a social networking app for small communities. Here you can see some the static files on this project. Many of the Python files have not been uploaded for security. 
+
+If you would like to view the complete set of files for this project, please contact me at manvi.goyal@tufts.edu
+
 #Leg 1: Explanation of Data Schema
 
 ## Users
